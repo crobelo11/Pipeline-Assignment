@@ -90,4 +90,4 @@ jobs:
         with:
           app-name: "HW13-Pipeline"
           slot-name: "Production"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D4F4CFE8F5B543078E119DADBACE2AAD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F6A71FD78A3440FABFD5C26D1B3CEAEB }}
