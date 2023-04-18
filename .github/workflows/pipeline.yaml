@@ -75,7 +75,7 @@ jobs:
     needs: package
     environment:
       name: "Production"
-      url: ${{ hw13-pipeline.azurewebsites.net }}
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
       - name: Download artifact from build job
